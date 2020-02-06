@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: Montserrat-Regular;
+}
+
+.container_login_img{
+    background-image: url("../../img/bg-01.jpg");
+    width: calc(100% - 560px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+   
+}
+.container_login_content {
+  padding-top: 7%;  
+  background: rgb(243, 243, 243);
+  background: linear-gradient(90deg, rgba(243, 243, 243, 1) 0%, rgba(235, 230, 230, 1) 33%, rgba(232, 212, 180, 1) 77%);
+}
+
+.container_login_content input{
+    padding:30px 15px;
+    border-radius: 10px;
+}
+.container_login_content input::placeholder {
+    font-size:20px;
+}
+.container_login_content input[type="checkbox"]{
+    border-radius: 5px;
+    padding:10px;
+}
+
+.container_login_content .btn-primary{
+    height:60px;
+    background-color: #015668;
+    border : 2px solid #015668;
+    letter-spacing: 3px;
+    border-radius: 10px;
+}
+.container_login_content .btn-primary:hover{
+    background-color: #015668;
+}
+
+
+.company-div {
+    
+    background: rgb(243, 243, 243);
+    background: linear-gradient(90deg, rgba(243, 243, 243, 1) 0%, rgba(235, 230, 230, 1) 33%, rgba(232, 212, 180, 1) 77%);
+}
+
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    background: #1b262c;
+    color: #f1f1f1;
+    }
+
+#sidebar ul li a {
+    padding: 10px 0;
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+ .ipd{
+     background-color: #ee8572;
+     border: 2px solid #000;
+ }
+
+ .error{
+     color:red;
+     font-size: 1rem;
+ }
+ .errSuccess {
+     color: green;
+     font-size: 1rem;
+ }
+
+ .profileBtn{
+     text-decoration: none;
+     color:orange;
+ }
+ 
+ .profileBtn:hover{
+     text-decoration: none;
+     color:white;
+ }
